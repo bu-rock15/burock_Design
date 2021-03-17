@@ -1,4 +1,7 @@
-@media (max-width: 600px) {
+@media (max-width: 670px) {
+  .page-header {
+    height: auto;
+  }
   .header-nav {
     font-size: 1rem;
     margin-top: 60px;
