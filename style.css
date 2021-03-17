@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+img {
+    max-width: 100%;
+}
+
+/*  home     */
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+#home {
+  background-image: url(images/black0001.png);
+  height: 100vh;
+}
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.header-logo {
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 30px;
+}
+.page-header {
+  display: flex;
+  justify-content: space-around;
+}
+.header-nav {
+  display: flex;
+  list-style: none;
+  font-size: 1.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 45px;
+}
+.header-nav li {
+  margin-left: 36px;
+}
+a:hover  {
+  color: aqua;
+  transition: 0.7s;
+}
+
+/*  home-contents     */
+.home-contents {
+  text-align: center;
+  margin-top: 300px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home-title {
+  font-size: 3rem;
+}
+.home-contents p {
+  font-size: 1.5rem;
+}
+
+/*  About     */
+#about {
+  background-image: url(images/black0001.png);
+  height: 270px;
+  margin-bottom: 40px;
+}
+.page-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about-text {
+  color: #432;
+  margin-top: 80px;
+}
+.address {
+  color: #432;
+  list-style: none;
+}
+.about-item  {
+  display: flex;
+  margin-top: 40px;
+}
+.about-item img {
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+}
+.address {
+  margin-left: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  margin-top: 30px;
+}
+.address tr  {
+  line-height: 3;
+}
+
+.footer-item a {
+  color: #432;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 50px;
+}
+.footer-item {
+  display: flex;
+  justify-content: start;
+  margin-top: 90px;
+}
+.footer-item li {
+  list-style: none;
+  margin-right: 50px;
+}
+.footer-item a:hover {
+  color: aqua;
+}
+footer p{
+  color: #432;
+  margin-top: 90px;
+  margin-left: 200px;
+}
+.footer-nav {
+  display: flex;
+}
+
+/*  Works     */
+.works-item {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.works-item a {
+  color: #432;
+}
+.works-item a:hover  {
+  color: aqua;
+  transition: 0.7s;
+}
+.works-item img {
+  width: 70%;
+  margin-top: 100px;
+}
+.works-title {
+  color: #432;
+  margin-top: 20px;
+}
+.works-text {
+  color: #432;
+}
+.works-skill {
+  color: #432;
+}
