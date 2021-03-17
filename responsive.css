@@ -42,6 +42,10 @@
     line-height: 2;
   }
 
+  /*WORK      */
+  .works-item {
+    margin-bottom: 80px;
+  }
   /*footer     */
   .footer-item {
     margin-top: 20px;
